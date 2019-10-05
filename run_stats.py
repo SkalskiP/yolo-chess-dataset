@@ -53,7 +53,7 @@ class YoloStats:
 # Setting parameters
 parser = argparse.ArgumentParser()
 parser.add_argument('--labels-dir', type=str, default='./labels', help='path to the dir containing the yolo labels')
-parser.add_argument('--names', type=str, default='names.txt', help='path to the file containing label names')
+parser.add_argument('--names', type=str, default='chess.names', help='path to the file containing label names')
 
 opt = parser.parse_args()
 print(opt, "\n")
