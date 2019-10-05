@@ -1,0 +1,6 @@
+classes=12
+train=./data/chess_train.txt
+valid=./data/chess_test.txt
+names=data/chess.names
+backup=backup/
+eval=chess
